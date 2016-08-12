@@ -1,31 +1,28 @@
 ﻿@model IEnumerable<FinalProject.Models.Menu>
-    
+
 @{
     ViewBag.Title = "Index";
 }
 
 <div class="container">
+<h2>Food On Demand Menu</h2>
 
-    <h2>Food On Demand Menu</h2>
 
-    @foreach (var item in Model)
-    {
+@foreach (var item in Model)// loops through records and displays the food items
+{
 
+    
         <div class="col-sm-4 col-md-3">
             <div class="thumbnail">
-                <img src="@Html.DisplayFor(modelItem => item.foodImageUrl)" alt="">
+                <img src="@Html.DisplayFor(modelItem => item.foodImageUrl)" alt="Picture of food">
                 <div class="caption">
                     <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
                     <p>@Html.DisplayFor(modelItem => item.shortDescription)</p>
                     <p>Price: $@Html.DisplayFor(modelItem => item.Price) </p>
-                    <p>@Html.ActionLink("Details", "Details", new { id = item.FoodID })</p>
+                    <p>@Html.ActionLink("Details", "Details", new { id = item.FoodId })</p>
                 </div>
             </div>
         </div>
-    }
-
-
-</div>
-
-
-
+    
+}
+    </div>

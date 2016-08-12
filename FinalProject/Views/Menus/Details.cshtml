@@ -1,17 +1,23 @@
 ﻿@model FinalProject.Models.Menu
 
+@{
+    ViewBag.Title = "Details";
+}
+
 <h2>Details</h2>
 
 <div>
     <hr />
-
     <div>
-        <img src="@Model.foodImageUrl" alt="@Model.Name" height="200" width="300" />
+        <!--Moved out of the table so we can format the picture-->
+        <img src="@Model.foodImageUrl" alt=" http//Model.Name" height="200" width="300" />
     </div>
-
 
     <dl class="dl-horizontal">
 
+        <dd>
+
+        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -29,11 +35,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Description)
+            @Html.DisplayNameFor(model => model.longDescription)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Description)
+            @Html.DisplayFor(model => model.longDescription)
         </dd>
 
     </dl>

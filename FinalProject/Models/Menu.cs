@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace FinalProject.Models
 {
@@ -11,20 +14,22 @@ namespace FinalProject.Models
         {
 
         }
-        public Menu(int foodID, string Name, double price, string shortDescription, string Description)
+        public Menu(int foodID, string Name, double price, string shortDescription, string longDescription)
         {
-            this.FoodID = FoodID;
+           
+            this.FoodId = FoodId;
             this.Name = Name;
             this.Price = Price;
             this.shortDescription = shortDescription;
-            this.Description = Description;
+            this.longDescription = longDescription;
 
         }
-        public virtual int FoodID { get; set; }
+        [Key]
+        public virtual int FoodId { get; set; }
         public virtual string foodImageUrl { get; set; }
         public virtual string Name { get; set; }
         public virtual double Price { get; set; }
         public virtual string shortDescription { get; set; }
-        public virtual string Description { get; set; }
+        public virtual string longDescription { get; set; }
     }
 }
