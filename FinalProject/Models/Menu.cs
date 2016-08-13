@@ -14,7 +14,7 @@ namespace FinalProject.Models
         {
 
         }
-        public Menu(int foodID, string Name, double price, string shortDescription, string longDescription)
+        public Menu(int foodID, string Name, decimal price, string shortDescription, string longDescription)
         {
            
             this.FoodId = FoodId;
@@ -28,7 +28,7 @@ namespace FinalProject.Models
         public virtual int FoodId { get; set; }
         public virtual string foodImageUrl { get; set; }
         public virtual string Name { get; set; }
-        public virtual double Price { get; set; }
+        public virtual decimal Price { get; set; }
         public virtual string shortDescription { get; set; }
         public virtual string longDescription { get; set; }
     }

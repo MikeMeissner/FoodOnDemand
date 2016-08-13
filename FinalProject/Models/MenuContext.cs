@@ -4,7 +4,6 @@ namespace FinalProject.Models
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-   
 
     public partial class MenuContext : DbContext
     {
@@ -12,7 +11,6 @@ namespace FinalProject.Models
             : base("name=MenuConnection")
         {
         }
-
 
 
         public virtual DbSet<Menu> Menu { get; set; }
