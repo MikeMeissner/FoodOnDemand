@@ -7,17 +7,17 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Menu</h4>
     <hr />
+    <div>
+        <!--Moved out of the table so we can format the picture-->
+        <img src="@Model.foodImageUrl" alt=" http//Model.Name" height="200" width="300" />
+    </div>
+
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.foodImageUrl)
-        </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.foodImageUrl)
-        </dd>
 
+        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -35,14 +35,6 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.shortDescription)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.shortDescription)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.longDescription)
         </dt>
 
@@ -53,6 +45,5 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.FoodId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

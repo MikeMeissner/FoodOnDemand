@@ -14,5 +14,9 @@ namespace FinalProject.Models
 
 
         public virtual DbSet<Menu> Menu { get; set; }
+        public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+
     }
 }
