@@ -47,3 +47,7 @@
 <p>
     @Html.ActionLink("Back to List", "Index")
 </p>
+<p class="button">
+    @Html.ActionLink("Add to cart", "AddToCart",
+        "ShoppingCart", new { id = Model.FoodId }, "")
+</p>
