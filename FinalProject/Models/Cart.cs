@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name cart.cs
+ * File Description: This is the model for the cart
+ * 
+ * */
 
 namespace FinalProject.Models
 {

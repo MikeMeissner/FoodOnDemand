@@ -4,7 +4,12 @@ using System.Linq;
 using System.Web;
 using FinalProject.Models;
 using System.Web.Mvc;
-
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name foodContext.cs
+ * File Description: This is the shopping cart model
+ * 
+ * */
 namespace FinalProject.Models
 {
     public class ShoppingCart

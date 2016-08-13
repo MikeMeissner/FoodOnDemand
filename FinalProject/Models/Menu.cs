@@ -5,6 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name Menu.cs
+ * File Description: This is the menu model
+ * 
+ * */
 
 namespace FinalProject.Models
 {

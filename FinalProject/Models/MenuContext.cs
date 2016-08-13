@@ -4,6 +4,12 @@ namespace FinalProject.Models
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    /**
+ * Names: Nathan Siu and mike Meissner
+ * File Name MenuContext.cs
+ * File Description: This is menu connection
+ * 
+ * */
 
     public partial class MenuContext : DbContext
     {

@@ -1,5 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name AccountViewModels.cs
+ * File Description: This is the account view model
+ * 
+ * */
 
 namespace FinalProject.Models
 {

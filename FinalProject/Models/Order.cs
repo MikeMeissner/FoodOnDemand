@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name Order.cs
+ * File Description: Order Model
+ * 
+ * */
 
 namespace FinalProject.Models
 {

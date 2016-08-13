@@ -3,6 +3,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name IdentityModels.cs
+ * File Description: This is the identity model
+ * 
+ * */
 
 namespace FinalProject.Models
 {

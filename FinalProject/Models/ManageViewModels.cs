@@ -2,7 +2,12 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
-
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name ManageViewModels.cs
+ * File Description: This is the Manage View Model
+ * 
+ * */
 namespace FinalProject.Models
 {
     public class IndexViewModel
