@@ -177,6 +177,10 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MenusController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
+    <Compile Include="Migrations\201608171856356_AddFoodUrl.cs" />
+    <Compile Include="Migrations\201608171856356_AddFoodUrl.Designer.cs">
+      <DependentUpon>201608171856356_AddFoodUrl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Menu.cs" />
@@ -276,6 +280,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201608171856356_AddFoodUrl.resx">
+      <DependentUpon>201608171856356_AddFoodUrl.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

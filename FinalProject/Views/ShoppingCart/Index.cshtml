@@ -29,14 +29,14 @@
     {
         <tr id="row-@item.RecordId">
             <td>
-                @Html.ActionLink(item.Menu.Name, "Details",
+                @Html.ActionLink(item.MenuItem.Name, "Details",
                "Store", new { id = item.FoodId }, null)
             </td>
             <td>
-                @item.Album.Price
+                @item.MenuItem.Price
             </td>
             <td id="item-count-@item.RecordId">
-                @item.itemCount
+                @item.Count
             </td>
             <td>
                 <a href="#" class="RemoveLink"
