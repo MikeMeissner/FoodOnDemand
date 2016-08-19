@@ -45,9 +45,10 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Back to List", "Index")
-</p>
-<p class="button">
+
     @Html.ActionLink("Add to cart", "AddToCart",
-        "ShoppingCart", new { id = Model.FoodId }, "")
+        "ShoppingCart", new { id = Model.FoodId }, new { @class = "btn btn-default" })
+    &nbsp
+    @Html.ActionLink("Back to List", "Index", null, new { @class ="btn btn-default" })
+
 </p>

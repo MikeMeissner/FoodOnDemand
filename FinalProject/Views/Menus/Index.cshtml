@@ -19,7 +19,7 @@
                     <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
                     <p>@Html.DisplayFor(modelItem => item.shortDescription)</p>
                     <p>Price: $@Html.DisplayFor(modelItem => item.Price) </p>
-                    <p>@Html.ActionLink("Details", "Details", new { id = item.FoodId })</p>
+                    <p>@Html.ActionLink("Details", "Details", new { id = item.FoodId }, new { @class ="btn btn-default" })</p>
                 </div>
             </div>
         </div>
