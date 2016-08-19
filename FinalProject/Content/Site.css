@@ -5,8 +5,20 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    padding-top:50px;
     padding-left: 15px;
     padding-right: 15px;
+}
+#pic{
+    display:block;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
+#holder{
+    padding-right:50px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -16,6 +28,9 @@
     white-space: normal;
 }
 
+#nav{
+   padding-top:1px;
+}
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
